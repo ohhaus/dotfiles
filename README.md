@@ -1,49 +1,15 @@
-# Dot Files
+# 🔧 My Development Environment Configuration
 
-Мой репозиторий с конфигурационными файлами для разработки. В настоящее время содержит настройки для Visual Studio Code.
+This repository contains my personal **dotfiles** and editor configurations, currently focused on **VS Code** setup:
 
-## VSCode Configuration
-
-### Настройки (`settings.json`)
-
-Мои персональные настройки VSCode включают:
-
-- **Тема**: Dark Side с иконками Catppuccin
-- **Шрифты**: Fira Code Nerd Font для редактора, MesloLGS NF для терминала
-- **Оптимизации интерфейса**:
-  - Скрытие мини-карты и скроллбаров
-  - Упрощенный UI без лишних элементов
-  - Правый сайдбар
-- **Работа с кодом**:
-  - Табы 4 пробела
-  - Автосохранение
-  - Поддержка Django-шаблонов
-- **Инструменты**:
-  - Подсветка TODO/FIXME
-  - Вложенность связанных файлов
-  - Настройки для работы с Python/Django
-
-### Рекомендуемые расширения (`extensions.json`)
-
-Основные используемые расширения:
-
-- **Python/Django**: Полный набор для Python-разработки
-- **Дополнительные инструменты**:
-  - Docker
-  - SQLite Viewer
-  - Rainbow CSV
-  - REST Client
-- **Визуальные улучшения**:
-  - Dark Side Theme
-  - Catppuccin иконки
-- **Продуктивность**:
+- **Optimized UI/UX** with Dark Side theme, custom fonts, and minimal clutter
+- **Python/Django development tools** (Pylance, debugpy, Django template support)
+- **Productivity boosters**:
   - GitHub Copilot
-  - Todo Tree
+  - TODO/FIXME highlighting (Todo Tree)
+  - File nesting for related files
+- **Essential extensions** pre-configured (Docker, SQLite Viewer, Rainbow CSV, etc.)
 
-## Установка
+**Easy setup**: Clone and copy `vscode/` files to your User config folder.
 
-1. Склонируйте репозиторий
-2. Скопируйте содержимое папки `vscode` в:
-   - Linux: `~/.config/Code/User/`
-   - macOS: `~/Library/Application Support/Code/User/`
-   - Windows: `%APPDATA%\Code\User\`
+*(Future plans: Shell/zsh, tmux, and other tool configs)*
