@@ -1,0 +1,124 @@
+{   
+    // Theme & Appearance
+    "workbench.colorTheme": "Dark Side",
+    "workbench.iconTheme": "catppuccin-perfect-latte",
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+
+    // Font Settings
+    "editor.fontFamily": "Fira Code Nerd Font",
+    "editor.fontSize": 15,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.fontSize": 14,
+
+    // Editor Behavior
+    "editor.tabSize": 4,
+    "editor.detectIndentation": false,
+    "editor.snippetSuggestions": "top",
+    "editor.linkedEditing": true,
+    "editor.largeFileOptimizations": false,
+    "files.insertFinalNewline": true,
+    "editor.showFoldingControls": "never",
+    "editor.lightbulb.enabled": "off",
+    "editor.renderWhitespace": "none",
+    "editor.renderLineHighlight": "none",
+    "editor.guides.indentation": false,
+
+
+    // Editor UI
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.minimap.enabled": false,
+    "editor.matchBrackets": "never",
+    "editor.occurrencesHighlight": "off",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.glyphMargin": false,
+
+
+    // File Management
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    // Window & UI
+    "chat.commandCenter.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+
+    // Disable pop-up offers
+    "extensions.ignoreRecommendations": true,
+
+    // Git 
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "git.autorefresh": true,
+
+
+    // Todo Tree Settings
+    "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS):|^\\s*- \\[ \\])",
+    "todo-tree.general.tags": ["TODO", "FIXME"],
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "#FFFFFF",
+        "background": "#FF000080",
+        "icon": "check",
+        "rulerColor": "#FF000080",
+        "type": "text"
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "background": "#2196F3",
+            "icon": "check",
+            "rulerColor": "#2196F3"
+        },
+        "FIXME": {
+            "background": "#FF5252",
+            "icon": "alert",
+            "rulerColor": "#FF5252"
+        }
+    },
+    
+     // Django Settings
+     "files.associations": {
+        "**/*.html": "django-html",
+        "**/templates/**/*.html": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    
+    // Django HTML Settings
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    
+    "[django-html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "batisteo.vscode-django",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": true,
+            "strings": true
+        }
+    },
+
+    // File Nesting
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb, bun.lock",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "workbench.startupEditor": "none",
+}

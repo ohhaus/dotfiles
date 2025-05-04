@@ -1,0 +1,22 @@
+[
+  "batisteo.vscode-django",
+  "docker.docker",
+  "editorconfig.editorconfig",
+  "github.copilot",
+  "github.copilot-chat",
+  "gruntfuggly.todo-tree",
+  "humao.rest-client",
+  "mechatroner.rainbow-csv",
+  "ms-azuretools.vscode-docker",
+  "ms-python.autopep8",
+  "ms-python.debugpy",
+  "ms-python.flake8",
+  "ms-python.isort",
+  "ms-python.python",
+  "ms-python.vscode-pylance",
+  "mubariz.darker-still",
+  "qwtel.sqlite-viewer",
+  "snndmnsz.dark-side-theme",
+  "thang-nm.catppuccin-perfect-icons"
+]
+
