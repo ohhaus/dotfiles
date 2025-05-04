@@ -1,8 +1,5 @@
-# Dot Files
 
-Мой репозиторий с конфигурационными файлами для разработки. В настоящее время содержит настройки для Visual Studio Code.
-
-## VSCode Configuration
+# VSCode Configuration
 
 ### Настройки (`settings.json`)
 
