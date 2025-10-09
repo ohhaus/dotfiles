@@ -1,15 +1,12 @@
-{   
-    // Theme & Appearance
-    "workbench.colorTheme": "Dark Side",
+{
     "workbench.iconTheme": "catppuccin-perfect-latte",
-    "workbench.statusBar.visible": false,
-    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
 
     // Font Settings
     "editor.fontFamily": "Fira Code Nerd Font",
-    "editor.fontSize": 15,
+    "editor.fontSize": 14,
     "terminal.integrated.fontFamily": "MesloLGS NF",
-    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontSize": 13,
 
     // Editor Behavior
     "editor.tabSize": 4,
@@ -59,6 +56,11 @@
     "git.autofetch": true,
     "git.autorefresh": true,
 
+    // Ruff Settings
+    // "python.linting.enabled": true,
+    // "python.linting.lintOnSave": true,
+    // "python.linting.provider": "ruff",
+    // "python.formatting.provider": "ruff",
 
     // Todo Tree Settings
     "todo-tree.regex.regex": "((//|#|<!--|;|/\\*|^)\\s*($TAGS):|^\\s*- \\[ \\])",
@@ -121,4 +123,17 @@
         "*.s3db": "${capture}.${extname}-*"
     },
     "workbench.startupEditor": "none",
+    "git.enableSmartCommit": true,
+    "python.analysis.typeCheckingMode": "standard",
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "github.copilot.advanced": {
+
+    },
+    "github.copilot.enable": {
+        "*": false
+    },
+    "git.ignoreRebaseWarning": true,
+    "docker.extension.dockerEngineAvailabilityPrompt": false,
 }
