@@ -84,28 +84,6 @@
             "rulerColor": "#FF5252"
         }
     },
-    
-     // Django Settings
-     "files.associations": {
-        "**/*.html": "django-html",
-        "**/templates/**/*.html": "django-html",
-        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
-    },
-    
-    // Django HTML Settings
-    "emmet.includeLanguages": {
-        "django-html": "html"
-    },
-    
-    "[django-html]": {
-        "editor.formatOnSave": true,
-        "editor.defaultFormatter": "batisteo.vscode-django",
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": true,
-            "strings": true
-        }
-    },
 
     // File Nesting
     "explorer.fileNesting.patterns": {
